@@ -1,0 +1,7 @@
+writing tests for javascript with QUnit/Sinon and Karma
+
+To run the javascript tests
+
+1. npm install
+2. bower install
+3. karma start

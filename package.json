@@ -1,0 +1,8 @@
+{
+  "name": "testing_javascript",
+  "description": "npm files needed to test javascript",
+  "version": "0.0.1",
+  "dependencies": {
+    "bower": "*"
+  }
+}
