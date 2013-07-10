@@ -3,6 +3,9 @@
   "description": "npm files needed to test javascript",
   "version": "0.0.1",
   "dependencies": {
-    "bower": "*"
+    "bower": "*",
+    "karma-ember-preprocessor": "0.0.3",
+    "karma-qunit": "*",
+    "karma": "0.9.3"
   }
 }
