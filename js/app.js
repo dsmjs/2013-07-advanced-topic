@@ -43,13 +43,10 @@ App.Person.reopenClass({
         this.people.removeObject(person);
     },
     find: function() {
-        var self = this;
-        $.getJSON('/api/people', function(response) {
-            response.forEach(function(hash) {
-                var person = App.Person.create(hash);
-                self.people.pushObject(person);
-            });
-        }, this);
+        this.people = [
+            App.Person.create({firstName: 'matt', lastName: 'morrison'}),
+            App.Person.create({firstName: 'toran', lastName: 'billups'})
+        ];
         return this.people;
     }
 });
