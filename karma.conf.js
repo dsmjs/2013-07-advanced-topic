@@ -6,6 +6,7 @@ module.exports = function(karma) {
           "vendor/jquery/jquery.min.js",
           "vendor/handlebars/handlebars.js",
           "vendor/ember/ember.js",
+          "sinon.js",
           "app.js",
           "tests/*.js",
           "templates/*.handlebars"
